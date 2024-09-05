@@ -1,10 +1,10 @@
-class Cds
-    attr_reader :type
-    def initialize(type, name)
-    @type = type
-    @name = name
-                    end
+class TShirtCollection
+    attr_reader :size,
+            :color
 
+    def initialize(size, color)
+        @size = size
+        @color = color
+    end
 end
 
-#cd class now
