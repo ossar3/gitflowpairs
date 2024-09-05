@@ -1,5 +1,10 @@
-class Shoe
-attr_reader :type
-def initialize(type)
-    @type = type
+class TShirtCollection
+    attr_reader :size,
+            :color
+
+    def initialize(size, color)
+        @size = size
+        @color = color
+    end
 end
+
